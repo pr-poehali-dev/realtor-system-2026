@@ -49,7 +49,14 @@ const Index = () => {
       <section className="py-20 px-4 bg-card/50">
         <div className="container max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 animate-fade-in">
+            <div className="order-2 md:order-1">
+              <img 
+                src="https://cdn.poehali.dev/files/9b987e23-bb15-4935-b357-fba0b000f196.JPG" 
+                alt="Оксана Никитюк - наставник риэлторов" 
+                className="w-full h-auto rounded-2xl shadow-2xl animate-scale-in"
+              />
+            </div>
+            <div className="space-y-6 animate-fade-in order-1 md:order-2">
               <h2 className="text-4xl md:text-5xl font-bold">
                 Кто ведёт мини-курс и почему мне можно <span className="text-primary">доверять</span>
               </h2>
@@ -88,8 +95,15 @@ const Index = () => {
               </div>
             </div>
             
-            <Card className="bg-gradient-to-br from-primary/20 to-secondary/20 border-primary/30 animate-scale-in">
-              <CardContent className="p-8 space-y-4">
+            <Card className="bg-gradient-to-br from-primary/20 to-secondary/20 border-primary/30 animate-scale-in relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
+                <img 
+                  src="https://cdn.poehali.dev/files/13a49a41-3ebd-4996-9dc3-8cc16ada4e1a.JPG" 
+                  alt="" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <CardContent className="p-8 space-y-4 relative z-10">
                 <Badge className="bg-primary text-white text-lg px-4 py-2">🔥 Личный кейс</Badge>
                 <h3 className="text-4xl md:text-5xl font-bold">52 квартиры</h3>
                 <p className="text-muted-foreground text-sm uppercase tracking-wider">Мой путь — не теория. Я прошла всё сама.</p>
@@ -235,6 +249,18 @@ const Index = () => {
 
       <section className="py-20 px-4 bg-gradient-to-br from-primary/20 to-secondary/20">
         <div className="container max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+            <img 
+              src="https://cdn.poehali.dev/files/86b5882d-923d-427e-a763-7d0e5743464a.JPG" 
+              alt="Работа с клиентами" 
+              className="w-full h-auto rounded-2xl shadow-2xl animate-scale-in"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/3565b0c6-a9f3-40f4-b558-88da18b69f78.JPG" 
+              alt="Успешный риэлтор" 
+              className="w-full h-auto rounded-2xl shadow-2xl animate-scale-in"
+            />
+          </div>
           <Card className="bg-card/90 border-primary/50 animate-scale-in">
             <CardContent className="p-8 md:p-12 space-y-6">
               <Badge className="bg-secondary text-white text-lg px-4 py-2">💎 Результаты учеников</Badge>
@@ -356,7 +382,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-card/50">
         <div className="container max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="space-y-6 animate-fade-in">
+            <div className="space-y-6 animate-fade-in order-2 md:order-1">
               <h2 className="text-4xl md:text-5xl font-bold">
                 Готов работать <span className="text-primary">иначе?</span>
               </h2>
@@ -395,7 +421,13 @@ const Index = () => {
               </Button>
             </div>
 
-            <Card className="bg-card border-border animate-scale-in">
+            <div className="space-y-6 order-1 md:order-2">
+              <img 
+                src="https://cdn.poehali.dev/files/3eabe082-67b8-470e-b59a-99499e964764.JPG" 
+                alt="Процесс наставничества" 
+                className="w-full h-auto rounded-2xl shadow-2xl animate-scale-in"
+              />
+              <Card className="bg-card border-border">
               <CardContent className="p-6 space-y-6">
                 <h3 className="text-2xl font-bold">Как проходит наставничество:</h3>
                 <div className="space-y-4">
