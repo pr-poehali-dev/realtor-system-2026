@@ -203,7 +203,7 @@ const Index = () => {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
             >
-              🔵 Получить доступ к мини-курсу
+              Получить доступ к мини-курсу
             </Button>
           </div>
         </div>
@@ -345,7 +345,7 @@ const Index = () => {
                   size="lg" 
                   className="bg-secondary hover:bg-secondary/90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
                 >
-                  🟦 Забрать рабочую тетрадь
+                  Забрать рабочую тетрадь
                 </Button>
               </div>
             </CardContent>
@@ -391,7 +391,7 @@ const Index = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105 w-full sm:w-auto"
               >
-                ⚡️ Записаться на бесплатный разбор (60 минут)
+                Записаться на бесплатный разбор (60 минут)
               </Button>
             </div>
 
@@ -433,20 +433,20 @@ const Index = () => {
               className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
               onClick={() => scrollToSection('mini-course')}
             >
-              🔵 Получить мини-курс
+              Получить мини-курс
             </Button>
             <Button 
               size="lg" 
               variant="outline"
               className="border-secondary text-secondary hover:bg-secondary hover:text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
             >
-              🟦 Забрать «32 инструмента»
+              Забрать «32 инструмента»
             </Button>
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
             >
-              ⚡️ Записаться на разбор
+              Записаться на разбор
             </Button>
           </div>
         </div>
