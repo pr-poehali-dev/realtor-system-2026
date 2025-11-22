@@ -36,7 +36,7 @@ const Index = () => {
               className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all hover:scale-105"
               onClick={() => scrollToSection('mini-course')}
             >
-              🔵 Получить мини-курс
+              Получить мини-курс
             </Button>
           </div>
           
